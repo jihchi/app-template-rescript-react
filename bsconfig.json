@@ -1,0 +1,27 @@
+{
+  "name": "@snowpack/app-template-reason-react",
+  "reason": { "react-jsx": 3 },
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": [
+        { "dir": "__tests__", "type": "dev" }
+      ]
+    }
+  ],
+  "package-specs": [
+    { "module": "es6", "in-source": true }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest",
+    "bs-react-testing-library"
+  ],
+  "ppx-flags": [],
+  "refmt": 3
+}
