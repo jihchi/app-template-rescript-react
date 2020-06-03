@@ -42,10 +42,10 @@
     "@testing-library/react": "^10.0.3",
     "bs-platform": "^7.3.2",
     "bs-react-testing-library": "^0.7.2",
-    "jest": "^25.4.0",
+    "jest": "^26.0.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "reason-react": "^0.8.0",
-    "snowpack": "^2.1.0"
+    "snowpack": "^2.2.2"
   }
 }
