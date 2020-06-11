@@ -1,5 +1,5 @@
 {
-  "name": "@snowpack/app-template-reason-react",
+  "name": "app-template-reason-react",
   "reason": { "react-jsx": 3 },
   "bsc-flags": ["-bs-super-errors"],
   "sources": [
