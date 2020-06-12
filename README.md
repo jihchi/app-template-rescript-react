@@ -2,6 +2,18 @@
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
+> Using `npm`
+
+```sh
+npx create-snowpack-app new-dir --template app-template-reason-react
+```
+
+> Using `yarn`
+
+```sh
+npx create-snowpack-app new-dir --template app-template-reason-react --use-yarn
+```
+
 ## Available Scripts
 
 ### npm start
