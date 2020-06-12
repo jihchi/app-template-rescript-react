@@ -1,7 +1,7 @@
 {
   "extends": "@snowpack/app-scripts-react",
   "scripts": {
-    "run:re,rei": "bsb -make-world -clean-world",
+    "run:re,rei": "bsb -clean-world && bsb -make-world",
     "run:re,rei::watch": "$1 -w"
   },
   "plugins": []
