@@ -15,6 +15,7 @@
     "react"
   ],
   "files": [
+    ".gitignore",
     "babel.config.json",
     "bsconfig.json",
     "jest.config.js",
