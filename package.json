@@ -32,23 +32,22 @@
   },
   "scripts": {
     "build": "snowpack build",
-    "format": "bsrefmt --in-place 'src/**/*.{re.rei}'",
-    "re:build": "bsb -make-world",
-    "re:clean": "bsb -clean-world",
+    "build:re": "bsb -make-world",
+    "clean:re": "bsb -clean-world",
     "start": "snowpack dev",
     "test": "jest"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.5.1",
-    "@snowpack/app-scripts-react": "^1.1.4",
-    "@testing-library/jest-dom": "^5.5.0",
-    "@testing-library/react": "^10.2.1",
+    "@snowpack/app-scripts-react": "^1.2.0",
+    "@testing-library/jest-dom": "^5.10.1",
+    "@testing-library/react": "^10.3.0",
     "bs-platform": "^7.3.2",
-    "bs-react-testing-library": "^0.7.2",
+    "bs-react-testing-library": "^0.7.3",
     "jest": "^26.0.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "reason-react": "^0.9.1",
-    "snowpack": "^2.3.1"
+    "snowpack": "^2.5.4"
   }
 }
