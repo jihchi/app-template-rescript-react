@@ -38,15 +38,15 @@
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.5.1",
-    "@snowpack/app-scripts-react": "^1.2.0",
-    "@testing-library/jest-dom": "^5.10.1",
-    "@testing-library/react": "^10.3.0",
+    "@snowpack/app-scripts-react": "^1.8.4",
+    "@testing-library/jest-dom": "^5.11.3",
+    "@testing-library/react": "^10.4.8",
     "bs-platform": "^7.3.2",
     "bs-react-testing-library": "^0.7.3",
-    "jest": "^26.0.1",
+    "jest": "^26.4.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "reason-react": "^0.9.1",
-    "snowpack": "^2.5.4"
+    "snowpack": "^2.7.7"
   }
 }
