@@ -1,7 +1,6 @@
 module.exports = {
   extends: '@snowpack/app-scripts-react',
   plugins: [
-    '@snowpack/plugin-react-refresh',
     [
       '@snowpack/plugin-run-script',
       {
