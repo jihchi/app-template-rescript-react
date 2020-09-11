@@ -38,16 +38,16 @@
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.5.1",
-    "@snowpack/app-scripts-react": "^1.9.0",
-    "@snowpack/plugin-run-script": "^2.1.0",
-    "@testing-library/jest-dom": "^5.11.3",
-    "@testing-library/react": "^10.4.9",
+    "@snowpack/app-scripts-react": "^1.10.0",
+    "@snowpack/plugin-run-script": "^2.1.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.2",
     "bs-platform": "^8.2.0",
     "bs-react-testing-library": "^0.7.3",
-    "jest": "^26.4.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "jest": "^26.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "reason-react": "^0.9.1",
-    "snowpack": "^2.8.0"
+    "snowpack": "^2.10.3"
   }
 }
