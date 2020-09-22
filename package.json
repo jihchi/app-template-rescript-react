@@ -20,7 +20,7 @@
     "jest.config.js",
     "jest.setup.js",
     "README.md",
-    "snowpack.config.json",
+    "snowpack.config.js",
     "public/*",
     "src/**/*.res",
     "src/**/*.css",
