@@ -22,7 +22,7 @@
     "README.md",
     "snowpack.config.json",
     "public/*",
-    "src/**/*.re",
+    "src/**/*.res",
     "src/**/*.css",
     "src/**/*.svg"
   ],
