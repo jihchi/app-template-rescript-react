@@ -4,9 +4,9 @@ ReactDOMRe.renderToElementWithId(<App />, "root")
 
 // Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
 // Learn more: https://www.snowpack.dev/#hot-module-replacement
-@bs.scope(("import", "meta")) @bs.val external hot: bool = "hot"
+@scope(("import", "meta")) @val external hot: bool = "hot"
 
-@bs.scope(("import", "meta", "hot")) @bs.val
+@scope(("import", "meta", "hot")) @val
 external accept: unit => unit = "accept"
 
 if hot {

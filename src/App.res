@@ -1,4 +1,4 @@
-@bs.module("./logo.svg") external logo: string = "default"
+@module("./logo.svg") external logo: string = "default"
 
 %%raw(`import './App.css';`)
 
