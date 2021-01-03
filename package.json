@@ -32,7 +32,7 @@
     "build:re": "bsb -make-world",
     "clean:re": "bsb -clean-world",
     "start": "snowpack dev",
-    "test": "echo TODO"
+    "test": "web-test-runner \"src/**/__tests__/*.bs.js\""
   },
   "dependencies": {
     "react": "^17.0.1",
