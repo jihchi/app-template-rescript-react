@@ -4,10 +4,11 @@
 
 @react.component
 let make = () => {
-  let (count, setCount) = React.useState(() => 0)
+  let (count, setCount) = React.useState(() => 0.)
 
   React.useEffect0(() => {
-    let intervalId = Js.Global.setInterval(() => setCount(count => count + 1), 1000)
+    let intervalId = Js.Global.setInterval(() => setCount(count => count +. 1.), 100)
+
     Some(() => Js.Global.clearInterval(intervalId))
   })
 
@@ -21,8 +22,8 @@ let make = () => {
       </p>
       <p>
         {React.string("Page has been open for ")}
-        <code> {React.int(count)} </code>
-        {React.string(" seconds.")}
+        <code> {React.string(Printf.sprintf("%.1f", count /. 10.))} </code>
+        {React.string(" seconds")}
       </p>
       <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         {React.string("Learn React")}
