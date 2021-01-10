@@ -28,9 +28,9 @@
     "access": "public"
   },
   "scripts": {
+    "build:res": "bsb -make-world",
     "build": "snowpack build",
-    "build:re": "bsb -make-world",
-    "clean:re": "bsb -clean-world",
+    "clean:res": "bsb -clean-world",
     "start": "snowpack dev",
     "test": "web-test-runner \"src/**/__tests__/*.bs.js\""
   },
