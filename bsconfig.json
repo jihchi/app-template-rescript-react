@@ -4,24 +4,14 @@
   "bsc-flags": ["-bs-super-errors"],
   "sources": [
     {
-      "dir": "src",
-      "subdirs": [
-        { "dir": "__tests__", "type": "dev" }
-      ]
+      "dir": "src"
     }
   ],
-  "package-specs": [
-    { "module": "es6", "in-source": true }
-  ],
+  "package-specs": [{ "module": "es6", "in-source": true }],
   "suffix": ".bs.js",
   "namespace": true,
-  "bs-dependencies": [
-    "reason-react"
-  ],
-  "bs-dev-dependencies": [
-    "@glennsl/bs-jest",
-    "bs-react-testing-library"
-  ],
+  "bs-dependencies": ["reason-react"],
+  "bs-dev-dependencies": [],
   "ppx-flags": [],
   "refmt": 3
 }

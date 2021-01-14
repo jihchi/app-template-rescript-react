@@ -11,14 +11,12 @@
     "reason-react",
     "reasonml",
     "bucklescript",
+    "rescript",
     "react"
   ],
   "files": [
     ".gitignore",
-    "babel.config.json",
     "bsconfig.json",
-    "jest.config.js",
-    "jest.setup.js",
     "README.md",
     "snowpack.config.js",
     "public/*",
@@ -34,23 +32,17 @@
     "build:re": "bsb -make-world",
     "clean:re": "bsb -clean-world",
     "start": "snowpack dev",
-    "test": "jest"
+    "test": "echo TODO"
   },
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.6.0",
-    "@snowpack/app-scripts-react": "^1.12.6",
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-react-refresh": "^2.4.0",
     "@snowpack/plugin-run-script": "^2.3.0",
-    "@testing-library/jest-dom": "^5.11.8",
-    "@testing-library/react": "^11.1.1",
     "bs-platform": "^8.4.2",
-    "bs-react-testing-library": "^0.8.0",
-    "jest": "^26.6.3",
     "reason-react": "^0.9.1",
     "snowpack": "^3.0.7"
   }
