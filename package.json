@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.6.0",
+    "@snowpack/app-scripts-react": "^1.12.6",
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-react-refresh": "^2.4.0",
     "@snowpack/plugin-run-script": "^2.3.0",
