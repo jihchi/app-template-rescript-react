@@ -19,6 +19,7 @@
     "bsconfig.json",
     "README.md",
     "snowpack.config.js",
+    "web-test-runner.config.js",
     "public/*",
     "src/**/*.res",
     "src/**/*.css",
