@@ -19,6 +19,7 @@
     "bsconfig.json",
     "README.md",
     "snowpack.config.js",
+    "web-test-runner.config.js",
     "public/*",
     "src/**/*.res",
     "src/**/*.css",
@@ -28,11 +29,11 @@
     "access": "public"
   },
   "scripts": {
+    "build:res": "bsb -make-world",
     "build": "snowpack build",
-    "build:re": "bsb -make-world",
-    "clean:re": "bsb -clean-world",
+    "clean:res": "bsb -clean-world",
     "start": "snowpack dev",
-    "test": "echo TODO"
+    "test": "web-test-runner \"src/**/__tests__/*.bs.js\""
   },
   "dependencies": {
     "react": "^17.0.1",
@@ -42,8 +43,12 @@
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-react-refresh": "^2.4.0",
     "@snowpack/plugin-run-script": "^2.3.0",
+    "@snowpack/web-test-runner-plugin": "^0.2.1",
+    "@web/test-runner": "^0.12.1",
     "bs-platform": "^8.4.2",
+    "bs-react-testing-library": "^0.8.0",
+    "chai": "^4.2.0",
     "reason-react": "^0.9.1",
-    "snowpack": "^3.0.7"
+    "snowpack": "^3.0.10"
   }
 }
