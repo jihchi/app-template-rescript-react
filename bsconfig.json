@@ -4,14 +4,15 @@
   "bsc-flags": ["-bs-super-errors"],
   "sources": [
     {
-      "dir": "src"
+      "dir": "src",
+      "subdirs": [{ "dir": "__tests__", "type": "dev" }]
     }
   ],
   "package-specs": [{ "module": "es6", "in-source": true }],
   "suffix": ".bs.js",
   "namespace": true,
   "bs-dependencies": ["reason-react"],
-  "bs-dev-dependencies": [],
+  "bs-dev-dependencies": ["bs-react-testing-library"],
   "ppx-flags": [],
   "refmt": 3
 }
