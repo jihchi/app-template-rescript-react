@@ -12,7 +12,7 @@
   "suffix": ".bs.js",
   "namespace": true,
   "bs-dependencies": ["@rescript/react"],
-  "bs-dev-dependencies": ["bs-react-testing-library"],
+  "bs-dev-dependencies": [],
   "ppx-flags": [],
   "refmt": 3
 }
