@@ -11,8 +11,8 @@
   "package-specs": [{ "module": "es6", "in-source": true }],
   "suffix": ".bs.js",
   "namespace": true,
-  "bs-dependencies": ["reason-react"],
-  "bs-dev-dependencies": ["bs-react-testing-library"],
+  "bs-dependencies": ["@rescript/react"],
+  "bs-dev-dependencies": [],
   "ppx-flags": [],
   "refmt": 3
 }

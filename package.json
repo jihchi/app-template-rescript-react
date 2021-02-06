@@ -9,6 +9,7 @@
   "keywords": [
     "csa-template",
     "reason-react",
+    "rescript-react",
     "reasonml",
     "bucklescript",
     "rescript",
@@ -36,6 +37,7 @@
     "test": "web-test-runner \"src/**/__tests__/*.bs.js\""
   },
   "dependencies": {
+    "@rescript/react": "^0.10.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
@@ -44,11 +46,10 @@
     "@snowpack/plugin-react-refresh": "^2.4.0",
     "@snowpack/plugin-run-script": "^2.3.0",
     "@snowpack/web-test-runner-plugin": "^0.2.1",
+    "@testing-library/react": "^11.2.5",
     "@web/test-runner": "^0.12.1",
     "bs-platform": "^8.4.2",
-    "bs-react-testing-library": "^0.8.0",
     "chai": "^4.2.0",
-    "reason-react": "^0.9.1",
     "snowpack": "^3.0.10"
   }
 }
