@@ -10,7 +10,7 @@ module.exports = {
     [
       '@snowpack/plugin-run-script',
       {
-        cmd: 'bsb -make-world',
+        cmd: 'npm run build:res',
         watch: '$1 -w',
       },
     ],
