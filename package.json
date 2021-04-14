@@ -39,18 +39,18 @@
   },
   "dependencies": {
     "@rescript/react": "^0.10.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@snowpack/plugin-dotenv": "^2.0.5",
-    "@snowpack/plugin-react-refresh": "^2.4.0",
+    "@snowpack/plugin-dotenv": "^2.1.0",
+    "@snowpack/plugin-react-refresh": "^2.4.2",
     "@snowpack/plugin-run-script": "^2.3.0",
-    "@snowpack/web-test-runner-plugin": "^0.2.1",
-    "@testing-library/react": "^11.2.5",
-    "@web/test-runner": "^0.12.17",
+    "@snowpack/web-test-runner-plugin": "^0.2.2",
+    "@testing-library/react": "^11.2.6",
+    "@web/test-runner": "^0.12.19",
     "bs-platform": "^9.0.2",
     "chai": "^4.3.4",
-    "snowpack": "^3.0.10"
+    "snowpack": "^3.2.2"
   }
 }
