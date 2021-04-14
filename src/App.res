@@ -22,7 +22,7 @@ let make = () => {
       </p>
       <p>
         {React.string("Page has been open for ")}
-        <code> {React.string(Printf.sprintf("%.1f", count /. 10.))} </code>
+        <code> {React.string(Js.Float.toFixedWithPrecision(count /. 10., ~digits=1))} </code>
         {React.string(" seconds")}
       </p>
       <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
