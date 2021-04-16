@@ -30,7 +30,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "snowpack build",
+    "build": "npm run build:res && snowpack build",
     "build:res": "rescript build -with-deps",
     "clean": "npm run clean:res",
     "clean:res": "rescript clean",
