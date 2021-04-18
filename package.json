@@ -43,6 +43,7 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@jihchi/plugin-rescript": "0.0.0",
     "@snowpack/plugin-dotenv": "^2.1.0",
     "@snowpack/plugin-react-refresh": "^2.4.2",
     "@snowpack/plugin-run-script": "^2.3.0",

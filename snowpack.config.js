@@ -8,13 +8,7 @@ module.exports = {
   plugins: [
     '@snowpack/plugin-react-refresh',
     '@snowpack/plugin-dotenv',
-    [
-      '@snowpack/plugin-run-script',
-      {
-        cmd: 'npm run build:res',
-        watch: '$1 -- -w',
-      },
-    ],
+    '@jihchi/plugin-rescript',
   ],
   packageOptions: {
     /* ... */
