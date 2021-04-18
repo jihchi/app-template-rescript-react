@@ -12,7 +12,7 @@ module.exports = {
       '@snowpack/plugin-run-script',
       {
         cmd: 'npm run build:res',
-        watch: '$1 -w',
+        watch: '$1 -- -w',
       },
     ],
   ],
