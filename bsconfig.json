@@ -1,5 +1,5 @@
 {
-  "name": "app-template-reason-react",
+  "name": "app-template-rescript-react",
   "reason": { "react-jsx": 3 },
   "bsc-flags": ["-bs-super-errors"],
   "sources": [
