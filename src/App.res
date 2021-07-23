@@ -28,7 +28,11 @@ let make = () => {
       <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         {React.string("Learn React")}
       </a>
-      <a className="App-link" href="https://rescript-lang.org/" target="_blank" rel="noopener noreferrer">
+      <a
+        className="App-link"
+        href="https://rescript-lang.org/"
+        target="_blank"
+        rel="noopener noreferrer">
         {React.string("Learn ReScript")}
       </a>
     </header>
