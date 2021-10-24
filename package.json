@@ -42,13 +42,13 @@
   },
   "devDependencies": {
     "@jihchi/plugin-rescript": "^1.0.0",
-    "@snowpack/plugin-dotenv": "^2.1.0",
+    "@snowpack/plugin-dotenv": "^2.2.0",
     "@snowpack/plugin-react-refresh": "^2.5.0",
     "@snowpack/web-test-runner-plugin": "^0.2.2",
-    "@testing-library/react": "^12.0.0",
-    "@web/test-runner": "^0.13.15",
+    "@testing-library/react": "^12.1.2",
+    "@web/test-runner": "^0.13.20",
     "chai": "^4.3.4",
     "rescript": "^9.1.2",
-    "snowpack": "^3.8.3"
+    "snowpack": "~3.0"
   }
 }
