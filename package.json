@@ -46,8 +46,8 @@
     "@snowpack/plugin-react-refresh": "^2.5.0",
     "@snowpack/web-test-runner-plugin": "^0.2.2",
     "@testing-library/react": "^12.1.2",
-    "@web/test-runner": "^0.13.20",
-    "chai": "^4.3.4",
+    "@web/test-runner": "^0.13.27",
+    "chai": "^4.3.6",
     "rescript": "^9.1.2",
     "snowpack": "~3.0"
   }
